@@ -15,7 +15,7 @@ if (Side1 == Side2 && Side1 == Side3)
 }
 else if ((Side1 != Side2 && Side1 == Side3) || (Side1 == Side2 && Side1 != Side3) || (Side2 != Side1 && Side2 == Side3))
 {
-    Console.WriteLine("2 sides are equal hence it is a Isoceles Triangle");
+    Console.WriteLine("2 sides are equal hence it is a Isosceles Triangle");
 }
 else{
     Console.WriteLine("All 3 sides are not equal hence it is an Scalene Triangle");
